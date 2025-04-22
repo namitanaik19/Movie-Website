@@ -1,0 +1,185 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Body Styles */
+  body {
+    font-family: 'Segoe UI', sans-serif;
+    background-color: white;
+    color: black;
+    transition: background-color 0.4s, color 0.4s;
+    padding-bottom: 60px;
+  }
+  body {
+    transition: background-color 0.5s ease, color 0.5s ease;
+  }
+  
+  .dark-mode {
+    background-color: black;
+    color: white;
+  }
+  
+  /* Navbar */
+  nav {
+    background-color: #222;
+    color: white;
+    padding: 12px;
+    text-align: center;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 999;
+  }
+  
+  nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+    font-weight: bold;
+  }
+  
+  .main {
+    margin-top: 20px;
+    text-align: center;
+    padding: 20px;
+  }
+  
+  /* Poster Image */
+  .poster {
+    max-width: 400px;
+    width: 100%;
+    margin: 20px 0;
+    border-radius: 30%
+  }
+  
+  /* Grey Box */
+  .grey-box {
+    background-color: #eee;
+    padding: 20px;
+    border-radius: 10px;
+    margin: 20px auto;
+    width: 90%;
+    max-width: 600px;
+  }
+  
+  /* Trailer Button */
+  .trailer-btn {
+    margin-top: 15px;
+    padding: 10px 20px;
+    background-color: #333;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 8px;
+  }
+  
+  .recommendations {
+    margin-top: 30px;
+  }
+  
+  .recommendations ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .recommendations li {
+    margin: 5px 0;
+  }
+  
+  /* Cast */
+  .cast-grid {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+    margin-top: 30px;
+  }
+  
+  .actor img {
+    width: 200px;
+    height: auto;
+    border-radius: 10px;
+  }
+  
+  .review-box {
+    background-color: #eee;
+    padding: 20px;
+    width: 80%;
+    margin: 20px auto;
+    border-radius: 10px;
+  }
+  
+  /* Theme Button */
+  #toggle-theme {
+    position: fixed;
+    bottom: 20px;
+    left: 20px;
+    padding: 10px 15px;
+    font-size: 14px;
+    background-color: #444;
+    color: white;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+  }
+  
+  /* Dark Mode */
+  body.dark-mode {
+    background-color: #000;
+    color: white;
+  }
+  
+  body.dark-mode nav {
+    background-color: #111;
+  }
+  
+  body.dark-mode .grey-box,
+  body.dark-mode .review-box {
+    background-color: #222;
+    color: white;
+  }
+  
+  body.dark-mode #toggle-theme {
+    background-color: #eee;
+    color: black;
+  }
+  
+  .review-box {
+    background-color: #eee;
+    margin: 20px auto;
+    padding: 15px 25px;
+    border-radius: 8px;
+    max-width: 600px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+    transition: background-color 0.5s ease;
+  }
+  
+  .review-box span {
+    display: block;
+    margin-top: 5px;
+    font-style: italic;
+    font-size: 0.9em;
+  }
+  
+  .dark-mode .review-box {
+    background-color: #333;
+    color: #fff;
+  }
+
+  
+  /* Centering the heading */
+  .reviews-heading {
+    text-align: center;
+    font-size: 2em;
+    margin-top: 50px;
+    color: #fff;
+  }
+  
+  .dark-mode .reviews-heading {
+    color: #ccc;
+  }
+  
+  
